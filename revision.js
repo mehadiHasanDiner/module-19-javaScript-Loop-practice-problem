@@ -12,5 +12,17 @@ var isExpensive = true;
 var tableItems = ["bottle", "pen", "mouse", "sunglass", "paper"];
 
 var item3 = tableItems[3];
+console.log(item3);
 tableItems[4] = "notebook";
-var penIndex = tableItems.indexOf("pen");
+var mouseIndex = tableItems.indexOf("mouse");
+console.log(tableItems);
+console.log(mouseIndex);
+
+// conditionals
+if (tableItems.length > 6) {
+  console.log(tableItems);
+} else if (tableItems[4] == "notebook") {
+  console.log(tableItems);
+} else {
+  console.log("kono item nai");
+}
