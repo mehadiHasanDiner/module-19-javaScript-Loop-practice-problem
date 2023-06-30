@@ -1,10 +1,21 @@
-var roastGiven = 0;
+var brikhoMelaJai = 0;
 
-while (roastGiven < 9) {
-  roastGiven++;
-  console.log(roastGiven);
-  console.log("Roast den please");
+// brikhoMelaJai = brikhoMelaJai+1;
+// brikhoMelaJai += 1;
+
+while (brikhoMelaJai < 7) {
+  console.log("Brikho Mela Jamu na");
+  console.log(brikhoMelaJai);
+  brikhoMelaJai++;
 }
+
+// var roastGiven = 0;
+
+// while (roastGiven < 9) {
+//   roastGiven++;
+//   console.log(roastGiven);
+//   console.log("Roast den please");
+// }
 
 /*
 1. Loop variable
