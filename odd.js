@@ -1,6 +1,6 @@
 // display 1 to 20 odd number
-var number = 1;
-while (number < 20) {
-  console.log(number);
-  number = number + 2;
+var oddNumber = 1;
+while (oddNumber <= 100000) {
+  console.log(oddNumber);
+  oddNumber = oddNumber + 2;
 }
