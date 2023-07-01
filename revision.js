@@ -24,5 +24,5 @@ if (tableItems.length > 6) {
 } else if (tableItems[4] == "notebook") {
   console.log(tableItems);
 } else {
-  console.log("kono item nai");
+  console.log("na item nai");
 }
